@@ -19,6 +19,12 @@ In this exercise, you will:
 3. Open a pull request
 4. Merge your pull request
 
+## 3D Google Dino-style game
+
+A minimal 3D Dino runner implementation is available in `/dino-3d`.
+
+To run it locally, open `/home/runner/work/skills-introduction-to-githubv1.1/skills-introduction-to-githubv1.1/dino-3d/index.html` in a browser.
+
 ### How to start this exercise
 
 Simply copy the exercise to your account, then give your favorite Octocat (Mona) **about 20 seconds** to prepare the first lesson, then **refresh the page**.

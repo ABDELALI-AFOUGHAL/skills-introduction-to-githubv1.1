@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>3D Dino Runner</title>
+    <style>
+      :root {
+        color-scheme: light;
+      }
+
+      body {
+        margin: 0;
+        overflow: hidden;
+        font-family: Arial, sans-serif;
+        background: #cde8ff;
+      }
+
+      #hud {
+        position: fixed;
+        top: 12px;
+        left: 12px;
+        color: #111;
+        font-weight: 700;
+        z-index: 2;
+        line-height: 1.5;
+        user-select: none;
+      }
+
+      #message {
+        display: none;
+        position: fixed;
+        inset: 0;
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+        background: rgba(0, 0, 0, 0.35);
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: 700;
+        z-index: 3;
+      }
+
+      #message.show {
+        display: flex;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="hud">Score: <span id="score">0</span><br />Jump: Space / ↑</div>
+    <div id="message">Game Over<br />Press R to restart</div>
+    <script src="./game.js"></script>
+  </body>
+</html>
